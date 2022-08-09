@@ -1,0 +1,61 @@
+/* Write your CSS here */
+* {
+  margin: 0px;
+}
+body {
+  box-sizing: border-box;
+}
+.latestMatchContainer {
+  background-color: #0f172a;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  height: 250px;
+  width: 100%;
+  margin-top: 5px;
+}
+.latestLogo {
+  height: 100px;
+}
+.latestMatch {
+  color: #ffffff;
+  font-weight: 500;
+  font-family: 'bree serif';
+  font-size: 15px;
+  text-align: start;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 30%;
+}
+.aboutMatch {
+  color: #ffffff;
+  font-weight: 500;
+  font-family: 'bree serif';
+  font-size: 15px;
+  text-align: end;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 30%;
+}
+.date {
+  font-size: 20px;
+}
+.latestMatchTeam {
+  font-size: 25px;
+}
+.matchContainerPara {
+  font-size: 13px;
+  color: #ffffff;
+}
+.aboutContainerSelectivePara {
+  font-size: 13px;
+  color: #ffffff95;
+}

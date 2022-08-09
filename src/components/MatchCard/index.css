@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.recentMatchCard {
+  list-style-type: none;
+  background-color: #0f172a;
+  width: 22%;
+  height: 200px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.recentTeamLogo {
+  height: 50px;
+}
+.recentTeamHeading {
+  font-size: 15px;
+  font-family: 'bree Serif';
+  text-align: center;
+  color: #ffffff;
+}
+.recentTeamPara {
+  font-size: 10px;
+  font-family: 'bree Serif';
+  text-align: center;
+  color: #ffffff95;
+}
+.win {
+  font-size: 15px;
+  font-family: 'bree Serif';
+  text-align: center;
+  color: #18ed66;
+}
+.loss {
+  font-size: 15px;
+  font-family: 'bree Serif';
+  text-align: center;
+  color: #e31a1a;
+}
